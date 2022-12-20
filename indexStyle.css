@@ -1,0 +1,148 @@
+h1 {
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+
+  text-align: center;
+  line-height: 59px;
+
+  padding: 0 64px;
+  margin: 0;
+}
+
+.stopwatch {
+  position: sticky;
+  width: 99%;
+  z-index: 1;
+  padding: 0.25rem 0;
+  margin: -0.25rem -0.5rem 0 0;
+  background: #fff;
+  box-sizing: border-box;
+  padding-left: 20%;
+}
+.number {
+  box-sizing: border-box;
+  font-size: 11vw;
+}
+.numbers {
+  color: #f29e25;
+  font-size: 1.875rem;
+}
+.time {
+  box-sizing: border-box;
+  font-size: 4vw;
+}
+
+.controls {
+  position: sticky;
+  width: 90%;
+  z-index: 1;
+  padding: 0.25rem 0;
+  margin: -0.25rem -0.5rem 0 0;
+  background: #fff;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+.startButtons {
+  padding: 26%;
+  justify-content: center;
+  text-align: center;
+  flex: 0 0 6.25rem;
+  margin: 0.3125rem;
+  width: 6.25rem;
+  height: 2.25rem;
+  padding-left: 0.15rem;
+  padding-right: 0.15rem;
+  background-color: #17a69d;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  box-shadow: none;
+  line-height: 1.5;
+  font-size: 22px;
+  font-weight: normal;
+  vertical-align: middle;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+.resetButtons {
+  padding: 4.5%;
+  justify-content: center;
+  text-align: center;
+  flex: 0 0 6.25rem;
+  margin: 0.3125rem;
+  width: 6.25rem;
+  height: 1.25rem;
+  padding-left: 1.15rem;
+  padding-right: 1.15rem;
+  background-color: skyblue;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  box-shadow: none;
+  line-height: 0.5;
+  font-size: 22px;
+  font-weight: normal;
+  vertical-align: middle;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+
+.splitbuttons {
+  padding: 4.5%;
+  justify-content: center;
+  text-align: center;
+  flex: 0 0 6.25rem;
+  margin: 0.0125rem;
+  width: 6.25rem;
+  height: 2.25rem;
+  padding-left: 1.15rem;
+  padding-right: 1.25rem;
+  background-color: #f29e25;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  box-shadow: none;
+  line-height: 0.5;
+  font-size: 22px;
+  font-weight: normal;
+  vertical-align: middle;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+
+/* #myBtn{
+     pointer-events: auto;
+  cursor: not-allowed; 
+}  */
+
+button {
+  cursor: pointer;
+  background: transparent;
+  padding: 1%;
+  border: none;
+  margin: 0;
+  outline: none;
+}
+
+#playButton {
+  display: block;
+}
+
+#pauseButton {
+  display: none;
+}
+.showDataSytle {
+  margin: 2%;
+  padding-left: 15%;
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+  justify-content: space-between;
+  word-spacing: 300px;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+*:disabled {
+  filter: grayscale(1);
+  cursor: not-allowed;
+}

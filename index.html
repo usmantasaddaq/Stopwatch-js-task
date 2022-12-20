@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="indexStyle.css" />
+  </head>
+
+  <body>
+    <div class="stopwatch">
+      <div class="number">
+        <sub id="display">00:00:00.0<span  class="time">00</span></sub>
+      </div>
+      <div class="numbers">
+        <span id="display1">00:00:00.000</span>
+      </div>
+
+      <div class="controls"  >
+        <button class="buttonPlay" >
+          <span class="startButtons input" id="playButton" onclick="startHandler()" >Start</span>
+          <span class="startButtons" id="pauseButton"onclick="pauseHandler()">Pause</span>
+        </button>
+        <button  
+           class="splitbuttons"  id="splitButton" onclick="handerSplit()">Split </button>
+        <button  class="resetButtons"  id="resetButton" >Reset</button>
+      </div>
+      </div>
+      <hr></hr>
+
+         <div id="div" class="showDataSytle"> </div>
+    </div>
+    <script src="./index.js">
+
+    </script>
+   
+  </body>
+</html>
